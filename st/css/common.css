@@ -1,31 +1,9 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
-@font-face {font-family: Roboto Regular; src: local("Roboto Regular"), url(../fonts/reg_2.woff);}
-@font-face{font-family: Roboto Bold; src: local("Roboto Bold"), url(../fonts/reg_3.woff);}
-
 html { height: 100%; }
 body {
-    background-color: #f6f7f8;
     margin: 0;
     padding: 0;
-    min-width: 1024px;
-    font-family: "Roboto Bold", Arial, sans-serif;
     height: 100%;
-    color: #4F6173;
-    overflow-y: scroll;
 }
-img{border: 0;}
-.fl_r{float: right;}
-.fl_l{float: left;}
-ul{list-style: none; margin: 0; padding: 0;}
-.li{display: list-item;}
-.clear_fix{display: block;}
-table {
-    border: none;
-    border-spacing: 0;
-    padding: 0px;
-    margin: 0;
-}
-td {display: inline-block;}
-.fixed{position: fixed;}
